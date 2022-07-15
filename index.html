@@ -30,15 +30,22 @@
 </head>
 
 
-<body class="debug bg-secondary">
+<body class="bg-secondary">
   <!-- NAV BAR -->
   <header class="container">
-    <nav class="row text-center bg-dark text-light p-3">
-      <h1>My Blog</h1>
-      <p>Welcome to my Blog</p>
+    <nav class="row bg-hero text-light p-3">
+      <div class="col-2 offset-5">
+        <h1>My Blog</h1>
+        <p>Welcome to my Blog</p>
+      </div>
+      <div class="col-4 offset-1 d-flex align-items-end justify-content-end">
+        <button class="btn btn.secondary bg-secondary text-light m-1">Like</button>
+        <button class="btn btn.secondary bg-secondary text-light m-1">Read More</button>
+        <button class="btn btn.secondary bg-secondary text-light m-1">Share</button>
+      </div>
     </nav>
   </header>
-  <main class="bg-secondary">
+  <main class="">
     <!-- HERO IMAGE -->
     <div class="container">
       <div class="row hero-img align-items-center">
@@ -49,16 +56,14 @@
         </div>
       </div>
     </div>
-    <!-- FIRST ARTICLE -->
     <section class="container bg-light">
-      <div class="row my-5">
+      <div class="row my-5 bg-secondary">
         <!-- NOTE LEFT SIDE -->
-        <div class="col-12 col-md-8">
-          <div class="row bg-white shadow">
+        <div class="col-12 col-md-7 mx-4">
+          <div class="row bg-white shadow rounded">
             <div class="col-12">
-
-              <div class="text-center">
-                <h4>Title of Blog Entry</h4>
+              <div class="mx-5">
+                <h4 class="pt-3">Title of Blog Entry</h4>
                 <p>Journal Date: July, 14th 2022</p>
               </div>
               <div class="d-flex justify-content-center mb-3">
@@ -81,85 +86,85 @@
                   accusantium unde sit harum commodi.
                 </p>
               </div>
-              <div class="d-flex justify-content-between my-3">
+              <div class="d-flex justify-content-between m-3">
                 <button class="btn btn.secondary bg-secondary text-light">Like</button>
+                <button class="btn btn.secondary bg-secondary text-light p-1">Read More</button>
                 <button class="btn btn.secondary bg-secondary text-light">Share</button>
               </div>
             </div>
           </div>
-            <div class="row bg-white shadow mt-4 p-4">test</div>
-            <div class="row bg-white shadow mt-4 p-4">test</div>
-            <div class="row bg-white shadow mt-4 p-4">test</div>
+          <div class="row bg-white shadow mt-4 p-4 rounded">
+            <div class="mx-5">
+              <h4 class="pt-3">This is Another Blog Entry</h4>
+              <p>Journal Date: July, 13th 2022</p>
+            </div>
+            <div>
+              <img class="img-fluid mb-3" src="https://images.unsplash.com/photo-1545712074-7e04fd22c648?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJhc3MlMjBndWl0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60" alt="">
+            </div>
+            <div>
+              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla unde nam, vel ad esse ea delectus praesentium autem maxime, doloremque officiis tempore pariatur veniam atque voluptatibus consectetur? Magni, ipsam placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium consequatur quas illo! Odit aspernatur corrupti molestiae rem eaque repellat facilis deleniti sint earum quisquam alias, quaerat officia ad eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nesciunt dolorum recusandae laborum eos inventore fugit omnis magni, ex mollitia libero commodi non soluta pariatur molestiae! Nulla incidunt provident optio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod perferendis nulla earum voluptatibus, culpa cumque natus odio fuga eveniet ducimus neque? Quisquam, adipisci. Cupiditate quisquam facere culpa voluptatibus recusandae voluptate?</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <button class="btn btn.secondary bg-secondary text-light">Like</button>
+              <button class="btn btn.secondary bg-secondary text-light p-1">Read More</button>
+              <button class="btn btn.secondary bg-secondary text-light">Share</button>
+            </div>
+          </div>
+          <div class="row bg-white shadow mt-4 p-4 rounded">
+            <div class="mx-5">
+              <h4 class="pt-3">Here's One More Article</h4>
+              <p>Journal Date: July, 12th 2022</p>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1485278537138-4e8911a13c02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJhc3MlMjBndWl0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <div>
+              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere facilis optio voluptatibus quas minima voluptatem nisi quo. Ratione sequi nisi ullam esse dolorem repudiandae necessitatibus magnam quos reiciendis repellat? Enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem assumenda asperiores, quaerat laborum hic. Quos commodi minus totam iure sit, quam officia deserunt rem facere! Necessitatibus quod voluptas nisi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ad dignissimos assumenda doloremque sequi fuga, illo saepe sed, magnam blanditiis delectus ducimus ea maiores quo nulla laborum nisi! Quaerat, quia.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iure quod esse dignissimos, molestias doloribus adipisci iste dicta facere quam ipsam omnis officia distinctio nihil maiores laudantium autem minus alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit voluptatum id quasi dolores, sapiente omnis rem culpa beatae nesciunt atque, modi, ex vitae est cupiditate consectetur quos porro error.</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <button class="btn btn.secondary bg-secondary text-light">Like</button>
+              <button class="btn btn.secondary bg-secondary text-light p-1">Read More</button>
+              <button class="btn btn.secondary bg-secondary text-light">Share</button>
+            </div>
+          </div>
         </div>
         <!-- NOTE  RIGHT SIDE -->
         <div class="col-12 col-md-4">
-          <div class="row bg-white shadow mt-4 p-4">test</div>
-          <div class="row bg-white shadow mt-4 p-4">test</div>
-          <div class="row bg-white shadow mt-4 p-4">test</div>
+          <div class="row bg-white shadow p-4 rounded">
+              <h5>Related Articles</h5>
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1571327073757-71d13c24de30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ1bXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, mollitia facilis cum tempore ipsam et vitae blanditiis debitis eos qui, fugit, tempora libero voluptatum molestiae. Aliquid officiis reiciendis itaque suscipit!
+            </p>
+            <button class="btn btn.secondary bg-secondary text-light m-1">Read More</button>
+          </div>
+          <div class="row bg-white shadow mt-4 p-4 rounded">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1617293109458-f51db3f9e033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3ludGh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita reprehenderit debitis exercitationem excepturi maxime pariatur, totam aperiam perspiciatis repudiandae iusto tempore odio fugiat aut nemo fugit aspernatur suscipit aliquam.</p>
+            <button class="btn btn.secondary bg-secondary text-light m-1">Read More</button>
+          </div>
+          <div class="row bg-white shadow mt-4 p-4 rounded">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1617293109458-f51db3f9e033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3ludGh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita reprehenderit debitis exercitationem excepturi maxime pariatur, totam aperiam perspiciatis repudiandae iusto tempore odio fugiat aut nemo fugit aspernatur suscipit aliquam.</p>
+            <button class="btn btn.secondary bg-secondary text-light m-1">Read More</button>
+
+          </div>
         </div>
       </div>
-
     </section>
-    <!-- SECOND ARTICLE -->
+    
 
 
 
 
     </div>
 
-
-
-
-
-
-    <!--  
-        <div class="col-8">
-          <div class="text-center">
-            <h4>Title of Blog Entry</h4>
-            <p>Journal Date: July, 14th 2022</p>
-          </div>
-        
-        <div class="d-flex justify-content-center">
-          <img class="img-fluid" src="https://images.unsplash.com/photo-1591466581460-97103ca67533?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        </div>
-        <div>
-          <p class="pt-3"><b>ipsum dolor</b> sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repellendus ea dolore, accusamus pariatur libero facere nostrum eaque fuga autem veritatis eum, laudantium facilis et hic, voluptas veniam natus animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.
-          </p>
-        </div>
-        <div class="d-flex justify-content-between my-3">
-          <button class="btn btn.secondary bg-secondary text-light">Like</button>
-          <button class="btn btn.secondary bg-secondary text-light">Share</button>
-        </div>
-      </div>
-      <div class="row my-5">
-        <div class="col-8 p-0">
-          <div class="text-center">
-            <h4>Title of Blog Entry</h4>
-            <p>Journal Date: July, 14th 2022</p>
-          </div>
-        <div class="d-flex justify-content-center">
-          <img class="img-fluid" src="https://images.unsplash.com/photo-1591466581460-97103ca67533?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        </div>
-        <div>
-          <p class="pt-3"><b>ipsum dolor</b> sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repellendus ea dolore, accusamus pariatur libero facere nostrum eaque fuga autem veritatis eum, laudantium facilis et hic, voluptas veniam natus animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati minima, laborum pariatur fugiat vel, magnam vero esse eum neque ullam earum aspernatur architecto temporibus accusantium unde sit harum commodi.
-          </p>
-        </div>
-        <div class="d-flex justify-content-between my-3">
-          <button class="btn btn.secondary bg-secondary text-light">Like</button>
-          <button class="btn btn.secondary bg-secondary text-light">Share</button>
-        </div>
-      </div>
-    -->
-    <!-- SECOND ARTICLE -->
-
-    <!-- RIGHT SIDE ARTICLES
-      <div class="col-4 img-fluid ">
-        <img class="img-fluid" src="https://media.istockphoto.com/photos/guitar-player-practicing-bass-guitar-at-home-picture-id1321486518?b=1&k=20&m=1321486518&s=170667a&w=0&h=jsckHcxQlqp9TXlGbWk07a5-CJB1wJHomynjUikZgWs=" alt="bass player">
-      </div> 
-    
-    -->
   </main>
 </body>
 

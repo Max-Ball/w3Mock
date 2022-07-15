@@ -4,6 +4,8 @@
   min-width: 100vh;
   background-position: center;
   background-size: cover;
+  border-bottom-left-radius: .5%;
+  border-bottom-right-radius: .5%;
 }
 
 body{
@@ -12,6 +14,7 @@ body{
   flex-direction: column;
 }
 
-.opacity{
-  opacity: .5;
+.bg-hero{
+  background-color: #201e1f;
 }
+
